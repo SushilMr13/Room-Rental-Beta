@@ -1,0 +1,57 @@
+/* RoomsPage.css */
+
+.rooms-page-container {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .rooms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-centre;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  .room-card {
+    background-color: #f3efef;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 10px);;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .room-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .room-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .room-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .book-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-button:hover {
+    background-color: #45a049;
+  }
+  
